@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="-2dp"></include>
+
+        <ScrollView     android:layout_width="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways"
+                android:id="@+id/layout_synedria_details">
+
+
+
+
+                <TextView
+                    android:id="@+id/txt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#003366"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="80dp"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/txt_img"
+                    android:layout_width="118dp"
+                    android:layout_height="94dp"
+                    android:layout_marginLeft="115dp"
+                    android:layout_marginTop="155dp" />
+
+                <TextView
+                    android:id="@+id/txt_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:autoLink="web"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="250dp"
+                    />
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorSide"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_nav_bot"/>
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        android:background="@color/colorSide"
+        android:layout_gravity="start"
+        app:itemTextColor="#f2f2f2"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        >
+    <ExpandableListView
+        android:groupIndicator="@android:color/transparent"
+        android:id="@+id/navigationmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="102dp"
+        android:background="@color/colorSide">
+    </ExpandableListView>
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

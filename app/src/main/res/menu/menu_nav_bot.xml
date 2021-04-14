@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/homepage_bot_nav"
+        android:title="Κεντρική"
+        android:icon="@drawable/home_bottom"/>
+    <item
+        android:id="@+id/news_bot_nav"
+        android:title="Ανακοινώσεις"
+        android:icon="@drawable/anakoinwsh"/>
+    <item
+        android:id="@+id/contact_bot_nav"
+        android:title="Επικοινωνία"
+        android:icon="@drawable/phone_bottom"/>
+    <item
+        android:id="@+id/studies_bot_nav"
+        android:title="Σπουδές"
+        android:icon="@drawable/sxoles"/>
+    </group>
+</menu>

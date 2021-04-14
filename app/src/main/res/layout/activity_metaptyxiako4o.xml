@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="-2dp"></include>
+
+        <ScrollView     android:layout_width="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways"
+                android:id="@+id/layout_metaptyxiako4">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/text1"
+                    android:text="Συνοπτική Παρουσίαση">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text1"
+                    android:id="@+id/text2"
+                    android:gravity="center_vertical"
+                    android:text=""></TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text2"
+                    android:id="@+id/text3"
+                    android:gravity="center"
+                    android:text="Σκοπός"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text3"
+                    android:id="@+id/text4"
+
+                    android:gravity="center_vertical"
+                    android:text=""
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text4"
+                    android:id="@+id/text5"
+                    android:gravity="center"
+                    android:text="Δομή Και Μαθήματα"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text5"
+                    android:id="@+id/text6"
+                    android:gravity="center_vertical"
+                    android:text="Τα μαθήματα ΠΜΣ έχουν επιλεγεί προσεκτικά ώστε να παρέχουν μια πλήρη βασική γνώση της επιστήμης της πληροφορικής σε κάθε υποψήφιο.\n\nΤόσο τα διδασκόµενα µαθήµατα κορµού, όσο και τα κατ’ επιλογήν µαθήµατα, έχουν επιλεγεί έτσι ώστε να προσφέρουν στο µεταπτυχιακό φοιτητή την ειδίκευση που απαιτούν οι πλέον πρόσφατες τεχνολογικές εξελίξεις στον τοµέα της Πληροφορικής και ειδικότερα των εφαρµογών της που αφορούν σε άλλες επιστήµες.\n\nΚάθε µάθηµα διδάσκεται σε 30 ώρες και ισοδυναµεί µε τρεις (3) διδακτικές µονάδες. Η Μεταπτυχιακή διατριβή ισοδυναµεί µε είκοσι (20) διδακτικές µονάδες.\nΗ δομή του προγράμματος μαθημάτων του Μεταπτυχιακού Διπλώματος Ειδίκευσης «Πληροφορική», έχει ως ακολούθως:\n\n"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text6"
+                    android:id="@+id/eksamino1"
+                    android:gravity="center_vertical"
+                    android:text="Απαιτείται η παρακολούθηση πέντε (5) µαθηµάτων κορµού και ενός (1) µαθήµατος επιλογής εκ των προσφεροµένων.">
+
+                </TextView>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eksamino1"
+                    android:id="@+id/table1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="1o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Υποχρεωτικά Μαθήµατα (Κορµού)" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Μαθήματα Επιλογής" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Εισαγωγή στην Επιστήµη των Υπολογιστών" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Ειδικά Κεφάλαια Μαθηµατικών" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Αρχές Προγραµµατισµού – Γλώσσα C, C++" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Μαθηµατική Λογική" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Λειτουργικά Συστήματα" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="∆ιακριτά Μαθηµατικά" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="∆οµές ∆εδοµένων" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Συνδυαστική Ανάλυση" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        >
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Γλώσσες Προγραµµατισµού και Μεταγλωττιστές" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Λογικός Προγραµµατισµός" />
+
+                    </TableRow>
+                </TableLayout>
+                <TextView
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/table1"
+                    android:id="@+id/eksamino2"
+                    android:gravity="center_vertical"
+                    android:text="Απαιτείται η παρακολούθηση πέντε (5) µαθηµάτων κορµού και ενός (1) µαθήµατος επιλογής εκ των προσφεροµένων.">
+
+                </TextView>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eksamino2"
+                    android:id="@+id/table2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="2o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Υποχρεωτικά Μαθήµατα (Κορµού)" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Μαθήματα Επιλογής" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Αντικειµενοστρεφής Προγραµµατισµός – Τεχνολογίες ∆ιαδικτύου" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Πιθανότητες - Στατιστική" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Βάσεις και Αποθήκες ∆εδοµένων" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Θεωρία και Εφαρµογές Γραφηµάτων" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Τεχνητή Νοηµοσύνη – Έµπειρα Συστήµατα" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Γραµµικός Προγραµµατισµός" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Αλληλεπίδραση Ανθρώπου - Υπολογιστή" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Πολυµεσικά Σήµατα και Συστήµατα" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        >
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Ταχεία Ανάπτυξη Εφαρμογών" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Ειδικά Θέµατα Συνδυαστικής Ανάλυσης" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        >
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Θεωρία Αριθµών" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/table2"
+                    android:id="@+id/eksamino3"
+                    android:gravity="center_vertical"
+                    android:text="Απαιτείται η παρακολούθηση πέντε (5) µαθηµάτων κορµού και ενός (1) µαθήµατος επιλογής εκ των προσφεροµένων.">
+
+                </TextView>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eksamino3"
+                    android:id="@+id/table3"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="3o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Υποχρεωτικά Μαθήµατα (Κορµού)" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Μαθήματα Επιλογής" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Τεχνολογία Λογισµικού" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Κρυπτογραφία" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Αναγνώριση Προτύπων" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Συστήµατα Υποστήριξης Αποφάσεων" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Αλγόριθµοι" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Ανάπτυξη Λογισμικού για Κινητές Συσκευές" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="∆ίκτυα Υπολογιστών" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Ανάλυση Εικόνας – Υπολογιστική Όραση" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        >
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="Συστήματα Λογισμικού Διαχείρισης Επιχειρησιακών Πόρων (ERP)" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Προγραµµατισµός µε το Πακέτο MATLAB" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_gravity="bottom"
+                        >
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+
+                            android:text="Γραφικά µε Υπολογιστές – Εικονική Πραγματικότητα" />
+
+                    </TableRow>
+                </TableLayout>
+                <TextView
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/table3"
+                    android:id="@+id/eksamino4"
+                    android:gravity="center_vertical"
+                    android:text="Απαιτείται η παρακολούθηση δύο (2) εκ των προσφεροµένων µαθηµάτων επιλογής καθώς και η συγγραφή Μεταπτυχιακής Εργασίας.">
+
+                </TextView>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eksamino4"
+                    android:id="@+id/table4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="4o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Μαθήματα Επιλογής" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Ασφάλεια Πληροφοριών" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Δίκτυα Υψηλών Ταχυτήτων" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Εικονικές Επιχειρήσεις" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Επεξεργασία Φωνής" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Ηλεκτρονικό Επιχειρείν" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Ιατρική Πληροφορική" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Μουσική Πληροφορική" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Ναυτιλιακή Πληροφορική" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Νομική Πληροφορική" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Περιβαλλοντική Πληροφορική" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Πληροφορική στην Εκπαίδευση" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Γεωπληροφορική" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="Συστημική Ανάλυση" />
+
+                    </TableRow>
+
+
+
+                </TableLayout>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/table4"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/text15"
+                    android:text="Πρόσκληση Υποβολής Αιτήσεων">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text15"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/text16"
+                    android:text="Πατήστε εδώ για να κάνετε ηλεκτρονική υποβολή αίτησης">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text16"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/text17"
+                    android:text="Πρόσκληση υποβολής αιτήσεων για το ΠΜΣ «Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» , 2020-2021">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text17"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/text18"
+                    android:text="Έντυπο αίτησης για το ΠΜΣ«Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» , 2020-2021">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+
+                    android:layout_below="@+id/text18"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/orologio_programma"
+                    android:text="Ωρολόγιο Πρόγραμμα">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/orologio_programma"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/orologio1"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/orologio1"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/orologio2"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+
+                    android:layout_below="@+id/orologio2"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/eggrafa"
+                    android:text="Έγγραφα">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/eggrafa"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/eggrafa1"
+                    android:text="">
+                </TextView>
+
+
+            </RelativeLayout>
+        </ScrollView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorSide"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_nav_bot"/>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        android:background="@color/colorSide"
+        android:layout_gravity="start"
+        app:itemTextColor="#f2f2f2"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        >
+        <ExpandableListView
+            android:groupIndicator="@android:color/transparent"
+            android:id="@+id/navigationmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="102dp"
+            android:background="@color/colorSide">
+        </ExpandableListView>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

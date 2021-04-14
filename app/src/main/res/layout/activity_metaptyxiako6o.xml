@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="-2dp"></include>
+
+        <ScrollView     android:layout_width="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways"
+                android:id="@+id/layout_metaptyxiako6">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/text1"
+                    android:text="Συνοπτική Παρουσίαση">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text1"
+                    android:id="@+id/text2"
+                    android:gravity="center_vertical"
+                    android:text="Αντικείμενο του παρόντος Προγράμματος Μεταπτυχιακών Σπουδών (ΠΜΣ) είναι η παροχή εξειδικευμένων επιστημονικών γνώσεων σε πτυχιούχους ανωτάτης εκπαίδευσης ώστε να ανταποκρίνονται στις ανάγκες των υπηρεσιών Φροντίδας Υγείας με σύγχρονες μεθόδους της Οργάνωσης της Διοίκησης, της Χρηματοοικονομικής Διαχείρισης των Υπηρεσιών της Φροντίδας Υγείας, της Πληροφορικής και της Τεχνολογίας στον Τομέα της Υγείας.\n\nΣκοπός του προγράμματος είναι η εισαγωγή και η καθοδήγηση των μεταπτυχιακών φοιτητών στην επιστημονική έρευνα έτσι ώστε, οι διπλωματούχοι του προγράμματος να μπορούν να εκτελούν προγράμματα, να αξιολογούν και να εφαρμόζουν τα προγράμματα αποτελεσματικά καθώς και να σχεδιάζουν και να διεξάγουν έρευνα στα γνωστικά αντικείμενα της Οργάνωσης, της Διοίκησης και της Χρηματοοικονομικής διαχείρισης των Υπηρεσιών Υγείας καθώς και της Πληροφορικής Υγείας, αντίστοιχα.Σκοπός είναι η στελέχωση των Μονάδων Υγείας με στελέχη άρτια καταρτισμένα στις σύγχρονες μεθόδους Οργάνωσης και Διοίκησης Υπηρεσιών Υγείας και Πληροφορικής Υγείας.\n\nΤο ΠΜΣ οργανώνεται από τα Τμήματα Νοσηλευτικής, Οικονομικών Επιστημών και Πληροφορικής &amp; Τηλεπικοινωνιών του Εθνικού και Καποδιστριακού Πανεπιστημίου Αθηνών, τα Τμήματα Πληροφορικής, Ψηφιακών Συστημάτων και Βιομηχανικής Διοίκησης &amp; Τεχνολογίας του Πανεπιστημίου Πειραιώς.\n\nΤο ΠΜΣ απονέμει Μεταπτυχιακό Δίπλωμα Ειδίκευσης (ΜΔΕ), στις κατευθύνσεις:\n    - Οργάνωση και Διοίκηση Υπηρεσιών Υγείας\n    - Πληροφορική Υγείας\n\n"
+></TextView>
+
+            </RelativeLayout>
+        </ScrollView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorSide"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_nav_bot"/>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        android:background="@color/colorSide"
+        android:layout_gravity="start"
+        app:itemTextColor="#f2f2f2"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        >
+        <ExpandableListView
+            android:groupIndicator="@android:color/transparent"
+            android:id="@+id/navigationmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="102dp"
+            android:background="@color/colorSide">
+        </ExpandableListView>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

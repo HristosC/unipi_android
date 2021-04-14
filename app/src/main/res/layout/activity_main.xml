@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:openDrawer="start"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="-2dp"></include>
+
+        <ScrollView     android:layout_width="wrap_content"
+                android:layout_below="@+id/toolbar"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways"
+                android:id="@+id/layout_main">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="540dp"
+                    android:background="#ffd396">
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΥΠΗΡΕΣΙΕΣ"
+                        android:textColor="#000000"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="5dp"
+                        tools:layout_editor_absoluteY="6dp" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="655dp"
+                    android:background="#ffd396">
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="5dp"
+                        tools:layout_editor_absoluteY="6dp" />
+
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:layout_marginTop="845dp"
+                    android:background="#ffd396">
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="ΕΡΓΑΣΤΗΡΙΑ"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="5dp"
+                        tools:layout_editor_absoluteY="6dp" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="269dp"
+                    android:layout_height="340dp"
+                    android:layout_marginTop="1780dp"
+                    android:layout_marginLeft="45dp"
+                    android:background="#ffd396">
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ΓΡΗΓΟΡΗ ΠΛΟΗΓΗΣΗ"
+                        android:textColor="#000000"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="5dp"
+                        tools:layout_editor_absoluteY="6dp" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:auto_cycle="true"
+                    app:corner_radius="20"
+                    app:delay="0"
+                    app:error_image="@drawable/grey"
+                    app:period="1500"
+                    app:placeholder="@drawable/grey">
+
+                </com.denzcoskun.imageslider.ImageSlider>
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_1"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    android:fillAfter = "true"
+                    app:srcCompat="@drawable/pc" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_1"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Διακριτών Μαθηματικών και Θεωρητικής Πληροφορικής"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_2"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    app:srcCompat="@drawable/pc" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_2"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Αναγνώρισης Προτύπων και Μηχανικής Μάθησης - Πολυμέσων"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_3"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    app:srcCompat="@drawable/pc" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_3"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Ασφάλειας"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_4"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    app:srcCompat="@drawable/pc" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_4"
+                    android:layout_width="146dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Ενσωματωμένων Υπολογιστικών Συστημάτων"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_5"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    app:srcCompat="@drawable/kel" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_5"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Τεχνητής Νοημοσύνης και Εικονικής Πραγματικότητας"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_6"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    app:srcCompat="@drawable/pc" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_6"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Διαδικτυακών και Τηλεπικοινωνιακών Συστημάτων Υπηρεσιών και Ασφάλειας"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_7"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    app:srcCompat="@drawable/se" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_7"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Τεχνολογίας Λογισμικού"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_8"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    app:srcCompat="@drawable/dss" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_8"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Συστημάτων Υποστήριξης Αποφάσεων"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/ergast_slide_img_9"
+                    android:layout_width="75dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="875dp"
+                    app:srcCompat="@drawable/pc" />
+                <TextView
+                    android:id="@+id/ergast_slide_txt_9"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="-10dp"
+                    android:text="Εργαστήριο Συστημάτων Υποστήριξης Αποφάσεων"
+                    android:textSize="10dp"
+                    android:layout_marginTop="965dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+
+                <ImageView
+                    android:id="@+id/drast_slide_img_1"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio1" />
+
+                <ImageView
+                    android:id="@+id/drast_slide_img_2"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio2" />
+
+                <ImageView
+                    android:id="@+id/drast_slide_img_3"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio3" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_4"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio4" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_5"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio5" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_6"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio6" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_7"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio7" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_8"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio8" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_9"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio9" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_10"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio10" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_11"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio11" />
+                <ImageView
+                    android:id="@+id/drast_slide_img_12"
+                    android:layout_width="89dp"
+                    android:layout_height="139dp"
+                    android:layout_marginTop="685dp"
+                    app:srcCompat="@drawable/sunedrio12" />
+                <ImageView
+                    android:id="@+id/yp_slide_img_9"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia9" />
+                <ImageView
+                    android:id="@+id/yp_slide_img_8"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia8" />
+                <ImageView
+                    android:id="@+id/yp_slide_img_7"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia7" />
+
+                <ImageView
+                    android:id="@+id/yp_slide_img_1"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia1" />
+
+                <ImageView
+                    android:id="@+id/yp_slide_img_2"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia2" />
+
+                <ImageView
+                    android:id="@+id/yp_slide_img_3"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia3" />
+
+                <ImageView
+                    android:id="@+id/yp_slide_img_4"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia4" />
+
+                <ImageView
+                    android:id="@+id/yp_slide_img_5"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia5" />
+
+                <ImageView
+                    android:id="@+id/yp_slide_img_6"
+                    android:layout_width="70dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="570dp"
+                    app:srcCompat="@drawable/upiresia6" />
+
+                <ImageView
+                    android:id="@+id/main_img_1"
+                    android:layout_width="168dp"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="210dp"
+                    app:srcCompat="@drawable/mainimg1" />
+
+
+                <ImageView
+                    android:id="@+id/main_img_2"
+                    android:layout_width="168dp"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="185dp"
+                    android:layout_marginTop="210dp"
+                    app:srcCompat="@drawable/mainimg2" />
+                <ImageView
+                    android:id="@+id/main_img_3"
+                    android:layout_width="168dp"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="310dp"
+                    app:srcCompat="@drawable/mainimg3" />
+                <ImageView
+                    android:id="@+id/main_img_4"
+                    android:layout_width="168dp"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="185dp"
+                    android:layout_marginTop="310dp"
+                    app:srcCompat="@drawable/mainimg4" />
+                <ImageView
+                    android:id="@+id/main_img_5"
+                    android:layout_width="168dp"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="410dp"
+                    app:srcCompat="@drawable/mainimg5" />
+                <ImageView
+                    android:id="@+id/main_img_6"
+                    android:layout_width="168dp"
+                    android:layout_height="116dp"
+                    android:layout_marginLeft="185dp"
+                    android:layout_marginTop="410dp"
+                    app:srcCompat="@drawable/mainimg6" />
+
+                <ImageView
+                    android:id="@+id/news"
+                    android:layout_width="97dp"
+                    android:layout_height="53dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1050dp"
+                    app:srcCompat="@drawable/lastnews" />
+                <TextView
+                    android:id="@+id/news_title"
+                    android:layout_width="126dp"
+                    android:layout_height="66dp"
+                    android:layout_marginLeft="110dp"
+                    android:text="ΤΕΛΕΥΤΑΙΑ ΝΕΑ"
+                    android:layout_marginTop="1065dp"
+                    android:textColor="#000000"
+                    tools:layout_editor_absoluteX="-14dp"
+                    tools:layout_editor_absoluteY="118dp" />
+            </RelativeLayout>
+        </ScrollView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorSide"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_nav_bot"/>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        android:background="@color/colorSide"
+        android:layout_gravity="start"
+        app:itemTextColor="#f2f2f2"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        >
+        <ExpandableListView
+            android:groupIndicator="@android:color/transparent"
+            android:id="@+id/navigationmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="102dp"
+            android:background="@color/colorSide">
+        </ExpandableListView>
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

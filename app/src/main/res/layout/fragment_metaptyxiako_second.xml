@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".metaptyxiako_second"
+    android:background="@drawable/border"
+    android:id="@+id/panw">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="700dp"
+
+        android:layout_marginTop="25dp"
+        >
+        <TableLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/table1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="@drawable/bordercircle">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:textStyle="bold"
+                    android:text="Κύρια ΠΜΣ"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/metaptyxiako1"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1"
+
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+
+                    android:text="ΠΜΣ 'Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης'"
+                    />
+                <ImageView
+                    android:id="@+id/asterisk_1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/iconfinder_asterisk_yellow_5001"
+                    ></ImageView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/metaptyxiako2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+
+                    android:text="ΠΜΣ 'Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες' " />
+                <ImageView
+                    android:id="@+id/asterisk_2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/iconfinder_asterisk_yellow_5001"
+                    ></ImageView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/metaptyxiako3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+
+                    android:text="ΠΜΣ 'Κατανεμημένα Συστήματα, Ασφάλεια και Αναδυόμενες Τεχνολογίες Πληροφορίας' " />
+                <ImageView
+                    android:id="@+id/asterisk_3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/iconfinder_asterisk_yellow_5001"
+                    ></ImageView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/metaptyxiako4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="ΠΜΣ Πληροφορική" />
+                <ImageView
+                    android:id="@+id/asterisk_4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/iconfinder_asterisk_yellow_5001"
+                    ></ImageView>
+            </TableRow>
+
+        </TableLayout>
+        <TableLayout
+            android:layout_below="@id/table1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/table2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="@drawable/bordercircle">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:textStyle="bold"
+                    android:text="Διιδρυματικά – Διατμηματικά ΠΜΣ"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/metaptyxiako5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/border"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+
+                    android:text="ΠΜΣ Προηγμένες Τεχνολογίες Πληροφορικής και Υπηρεσίες" />
+                <ImageView
+                    android:id="@+id/asterisk_5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/iconfinder_asterisk_yellow_5001"
+                    ></ImageView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/metaptyxiako6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+
+                    android:text="ΠΜΣ Οργάνωση και Διοίκηση Υπηρεσιών Υγείας - Πληροφορική Υγείας " />
+                <ImageView
+                    android:id="@+id/asterisk_6"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/iconfinder_asterisk_yellow_5001"
+                    ></ImageView>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_below="@id/table2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/table3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="@drawable/bordercircle">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:textStyle="bold"
+                    android:text="Μεταπτυχιακά Προηγούμενων Ακ. Ετών"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/metaptyxiako7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/border"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+
+                    android:text="ΠΜΣ Προηγμένα Συστήματα Πληροφορικής" />
+                <ImageView
+                    android:id="@+id/asterisk_7"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/iconfinder_asterisk_yellow_5001"
+                    ></ImageView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/metaptyxiako8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+
+                    android:gravity="center"
+
+                    android:text="ΠΜΣ Σύγχρονα Συστήματα Τηλεπικοινωνιών, Τεχνολογίες Διαδικτύου και Ασφάλεια Συστημάτων" />
+                <ImageView
+                    android:id="@+id/asterisk_8"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/iconfinder_asterisk_yellow_5001"
+                    ></ImageView>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,2933 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="-2dp"></include>
+
+        <ScrollView     android:layout_width="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways"
+                android:id="@+id/layout_metaptyxiako2">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/text1"
+                    android:text="Συνοπτική Παρουσίαση">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text1"
+                    android:id="@+id/text2"
+                    android:gravity="center_vertical"
+                    android:text="Το Τμήμα Πληροφορικής της Σχολής Τεχνολογιών Πληροφορικής και Επικοινωνιών του Πανεπιστημίου Πειραιώς θα οργανώσει και θα λειτουργήσει από το ακαδημαϊκό έτος 2018-2019 Πρόγραμμα Μεταπτυχιακών Σπουδών (ΠΜΣ) με τίτλο «Ψηφιακός Πολιτισμός, Έξυπνες Πόλεις, IoT και Προηγμένες Ψηφιακές Τεχνολογίες» («Digital Culture, Smart Cities, IoT and Advanced Digital Technologies»), σύμφωνα με τις διατάξεις της απόφασης αυτής και τις διατάξεις του ν. 4485/2017.\n \nΣτο Π.Μ.Σ. γίνονται δεκτοί κάτοχοι τίτλου πρώτου κύκλου σπουδών Α.Ε.Ι. της ημεδαπής ή ομοταγών ιδρυμάτων της αλλοδαπής σύμφωνα με τις διατάξεις του άρθρου 34 του ν.4485/2017, ενδεικτικά και ανάλογα με την ειδίκευση: Τμημάτων/Σχολών Τεχνολογιών Πληροφορικής και Επικοινωνιών, Θετικών Επιστημών ή Τεχνολογικών Επιστημών, Μηχανικών, Καλών Τεχνών, Αρχιτεκτόνων Μηχανικών, Πολεοδόμων, Φιλοσοφικής Σχολής, Ανθρωπιστικών Επιστημών, Γεωπονικών Επιστημών, Παιδαγωγικών, Θεολογικής, Οικονομικών και Κοινωνικών Επιστημών, Οικονομικών - Επιχειρηματικών και Διεθνών Σπουδών, Ναυτιλίας και Βιομηχανίας, Κοινωνικών Επιστημών, Μηχανικών Πολυτεχνείων ή Πολυτεχνικών Σχολών, Μηχανικών Περιβάλλοντος, Νομικών Επιστημών, Τμημάτων Πληροφορικής, Τεχνών Ήχου &amp; Εικόνας, Πολιτισμικής Τεχνολογίας &amp; Επικοινωνίας, Τμημάτων Τεχνολογιών Πληροφορικής και Επικοινωνιών, Διαχείρισης Πολιτισμικού Περιβάλλοντος και Νέων Τεχνολογιών, Επικοινωνίας Μέσων και Πολιτισμού, Ψηφιακών Μέσων, Επικοινωνίας και Πολιτισμικής Διαχείρισης, Συντηρητών Αρχαιοτήτων &amp; Έργων Τέχνης, Ιστορικών και Αρχαιολόγων, Γραφιστικής, Πληροφορικής και Μέσων Μαζικής Ενημέρωσης, Διοίκησης - Οικονομίας και Επικοινωνίας, Πολιτιστικών και Τουριστικών Μονάδων, Aρχειονομίας, Bιβλιοθηκονομίας και Μουσειολογίας, Φωτογραφίας &amp; Οπτικοακουστικών Τεχνών, Ελληνικού και Ευρωπαϊκού Πολιτισμού, Μηχανικών Πληροφορικής Τ.Ε., Φυσικών, Μαθηματικών, Χημικών, Χωροταξίας Πολεοδομίας και Περιφερειακής Ανάπτυξης, Πολιτικών Μηχανικών, Μηχανικών Παραγωγής και Διοίκησης, Μηχανικών Ορυκτών Πόρων Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών, Παιδαγωγικών Τμημάτων, Ειδικής Αγωγής, Ιστορίας - Αρχαιολογίας και Κοινωνικής Ανθρωπολογίας, Υδάτινου Περιβάλλοντος, Πολιτικής Επιστήμης και Δημόσιας Διοίκησης, Επικοινωνίας και Μέσων Μαζικής Ενημέρωσης, Επικοινωνίας Μέσων και Πολιτισμού, Θεατρικών Σπουδών, Φιλοσοφίας, Παιδαγωγικής και Ψυχολογίας, Γεωλογίας και Γεωπεριβάλλοντος, Ιστορίας και Φιλοσοφίας της Επιστήμης, Δημόσιας Διοίκησης, Οικονομικής και Περιφερειακής Ανάπτυξης, Κοινωνικών και Πολιτικών Επιστημών, Κοινωνικής Ανθρωπολογίας, Κοινωνιολογίας, Ψυχολογίας ή/και άλλων συναφών με τις κατευθύνσεις ειδικοτήτων), καθώς και πτυχιούχοι Πανεπιστημίων, Πολυτεχνείων ή Πολυτεχνικών Σχολών και ΤΕΙ ή Α.Σ.ΠΑΙ.Τ.Ε. της ημεδαπής, και ομοταγών Ιδρυμάτων ΑΕΙ της αλλοδαπής.">  </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text2"
+                    android:id="@+id/text3"
+                    android:gravity="center"
+                    android:text="Σκοπός"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text3"
+                    android:id="@+id/text4"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text4"
+                    android:id="@+id/text5"
+                    android:gravity="center"
+                    android:text="Δομή Και Μαθήματα"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text5"
+                    android:id="@+id/text6"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text6"
+                    android:id="@+id/text7"
+                    android:gravity="center"
+                    android:text="Κατεύθυνση «Ψηφιακός Πολιτισμός (ΨΗΠΟΛ)»"
+                    >
+                </TextView>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text7"
+                    android:id="@+id/table1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="1o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Τίτλος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Διδάσκων" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/left_side_border"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="\t \t ECTS" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Μικτή Πραγματικότητα και Ηλεκτρονικός Πολιτισμός" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:layout_gravity="center"
+
+                            android:background="@drawable/left_side_border"
+                            android:text="Παναγιωτόπουλος\nΝ.Αναγνωστόπουλος" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Παγκόσμιος Ιστός και Διαχείριση Ψηφιακών Συλλογών" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="2"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:background="@drawable/left_side_border"
+                            android:text="Χ. Δουληγέρης\nI.Αναγνωστόπουλος\nΑ. Διάλλα" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Επεξεργασία Σημάτων, Οπτικοακουστικές Τεχνικές και Υπηρεσίες για Πολιτισμικές Εφαρμογές" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+
+
+
+                            android:text="Δ. Βέργαδος\nΑ. Πικράκης\nΑ. Μιχάλας\nI. Κοτσώνης\nΑ. Κακουλίδου" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="125dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Αειφόρος πολιτιστική ανάπτυξη για ψηφιακές πόλεις " />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="125dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:layout_gravity="center"
+                            android:background="@drawable/left_side_border"
+
+                            android:text="Ι. Στεφάνου\nΔ. Καταπότη\nΑρ. Βασιλαρά\nΠ. Χατζηγρηγορίου\nΑγ. Οικονόμου\nΚ. Σιούντρη\nΕ. Λινάκη" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="125dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="3"
+                            android:gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:text="Πνευματική Ιδιοκτησία, Προσωπικά Δεδομένα και Ρυθμιστικά Θέματα" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:layout_gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:text="Δ. Βέργαδος\nΕ. Βαγενά " />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                </TableLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/table1"
+                    android:id="@+id/table2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="2o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Τίτλος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Διδάσκων" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/left_side_border"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="\t \t ECTS" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Καταγραφή και Τεκμηρίωση Μνημείων με Προηγμένα Συστήματα" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:id="@+id/panagiwtopoylos2"
+                            android:text="Ν.Αναγνωστόπουλος\nΔ.Σωτηρόπουλος" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Διαδίκτυο των Πραγμάτων και Εφαρμογές Κινητών Τεχνολογιών στον Ψηφιακό Πολιτισμό " />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+android:layout_gravity="center"
+                            android:id="@+id/panagiwtopoylos3"
+                            android:text="Δ.Βέργαδος\nΕ.Αλέπης\nΑ.Μιχάλας\nΕ.Σκόνδρας\nΒ.Στεφάνου" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Διαχείριση και Διοίκηση Πολιτισμικών Μονάδων και Οργανισμών" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+android:layout_gravity="center"
+                            android:id="@+id/tsixritzis2"
+
+                            android:text="Δ.Ψυχογιός\nΑ.Ανδρουλιδάκη\nΓ.Μαγγίνης\nΓ.Κακαβάς\nΠ.Πάνος\nΒ.Καραμητσάνης" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Αστικός Σχεδιασμός Ψηφιακών Πόλεων" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:layout_gravity="center"
+
+                            android:id="@+id/virvoy2"
+                            android:background="@drawable/left_side_border"
+                            android:text="Ι. Στεφάνου\nΚ.Σιούντρη\nΑ. Βασιλαρά\nΕ. Τσίγκας\nΣ. Γεωργίου" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Προηγμένα Μέσα και Εφαρμογές στην Πολιτιστική Κληρονομιά και το Σύγχρονο Πολιτισμό" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="Δ.Βέργαδος\nΠ.Χατζηγρηγορίου\nΚ.Σιουντρη\nΑ.Κακουλίδου\nΙ.Κοτσώνης\nΠ.Ράππας\nΓ.Γρηγορακάκης\nΔ.Καταπότη" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/table2"
+                    android:id="@+id/text8"
+                    android:gravity="center"
+                    android:text="Κατεύθυνση «Έξυπνες Πόλεις και Προηγμένες Ψηφιακές Τεχνολογίες»"
+                    >
+                </TextView>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text8"
+                    android:id="@+id/table3"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="1o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Τίτλος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Διδάσκων" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/left_side_border"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="\t \t ECTS" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Υπολογιστική Νέφους, Δίκτυα Παροχής Περιεχομένου και Οχηματικές Τεχνολογίες" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:id="@+id/tsixritzis3"
+                            android:text="Χ. Δουληγέρης\nΔ. Βέργαδος\nΑ. Μιχάλας\nΣ. Παπαπαναγιώτου\nΕ. Σκόνδρας" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Ανάλυση Δεδομένων και Στατιστική" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="2"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="I.Αναγνωστόπουλος\nΙ. Τασούλας\nΜ. Φιλιππάκης" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="M2M Επικοινωνίες" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+android:layout_gravity="center"
+
+                            android:text="Γ. Τσιχριντζής\nΔ. Βέργαδος\nΔ.Ι. Βέργαδος\nΝ. Μυριδάκης\nΕ. Σκόνδρας " />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Αειφόρος πολιτιστική ανάπτυξη για ψηφιακές πόλεις" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+android:layout_gravity="center"
+                            android:background="@drawable/left_side_border"
+
+                            android:text="Ι. Στεφάνου\nΔ. Καταπότη\nΑρ. Βασιλαρά\nΠ. Χατζηγρηγορίου\nΑγ. Οικονόμου\nΚ. Σιούντρη\nΕ. Λινάκη" />/>
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="150dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="3"
+                            android:gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:text="Πνευματική Ιδιοκτησία, Προσωπικά Δεδομένα και Ρυθμιστικά Θέματα " />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:id="@+id/virvoy3"
+                            android:background="@drawable/left_side_border"
+                            android:text="Δ. Βέργαδος\nΕ. Βαγενά" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                </TableLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/table3"
+                    android:id="@+id/table4"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="2o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Τίτλος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Διδάσκων" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/left_side_border"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="\t \t ECTS" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Διακυβέρνηση της Πληροφορίας και Συμμόρφωση / Επιχειρηματικότητα - Διοίκηση Έξυπνων Πόλεων" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:id="@+id/alepis2"
+                            android:background="@drawable/left_side_border"
+                            android:text="Δ.Αποστόλου\nΔ. Βέργαδος\nΔ. Ψυχογιός" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Αλγοριθμικά Θέματα Aστικών Mεταφορών" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="2"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:background="@drawable/left_side_border"
+                            android:text="Χ.Κωνσταντόπουλος\nΓ.Πάντζιου" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Ενεργειακή Διαχείριση, Εξυπνα Δίκτυα και Εξυπνη Γεωργία" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:id="@+id/virvoy4"
+
+                            android:text="Α. Μιχάλας\nΔ. Βέργαδος\nΣ. Λιβιεράτος\nE. Σκόνδρας " />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 5" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Αστικός Σχεδιασμός Ψηφιακών Πόλεων " />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+
+                            android:background="@drawable/left_side_border"
+                            android:text="Ι. Στεφάνου\nΚ. Σιούντρη\nΑ. Βασιλαρά\nΕ. Τσίγκας\nΣ. Γεωργίου" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Λογισμικό για Έξυπνες Πόλεις" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="Μ. Βίρβου\nΔ. Βέργαδος\nΕ. Αλέπης\nΑ. Μιχάλας\nΕ. Σκόνδρας" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/background_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/table4"
+                    android:id="@+id/text9"
+                    android:gravity="center"
+                    android:text="Κατεύθυνση «Διαδίκτυο των Πραγμάτων (IoT) και Προηγμένες Ψηφιακές Τεχνολογίες (IoT)»"
+                    >
+                </TextView>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text9"
+                    android:id="@+id/table5"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="1o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Τίτλος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Διδάσκων" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/left_side_border"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="\t \t ECTS" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Υπολογιστική Νέφους, Δίκτυα Παροχής Περιεχομένου και Οχηματικές Τεχνολογίες" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:id="@+id/theodwridis2"
+                            android:background="@drawable/left_side_border"
+                            android:text="Χ. Δουληγέρης\nΔ. Βέργαδος\nΑ. Μιχάλας\nΣ.Παπαπαναγιώτου\nΕ. Σκόνδρας" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Ανάλυση Δεδομένων και Στατιστική" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="I. Αναγνωστόπουλος\nΙ. Τασούλας\nΜ. Φιλιππάκης " />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="M2M Επικοινωνίες" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:layout_gravity="center"
+                            android:background="@drawable/left_side_border"
+
+                            android:text="Γ. Τσιχριντζής\nΔ. Βέργαδος\nΔ.Ι. Βέργαδος\nΝ. Μυριδάκης\nΕ. Σκόνδρας" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Εφαρμογές Κινητών, Edge Υπολογιστική και Μελλοντικά Δίκτυα" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:id="@+id/virvoy5"
+                            android:background="@drawable/left_side_border"
+                            android:text="Δ. Βέργαδος\nΕ. Σακκόπουλος\nΕ. Αλέπης\nΑ. Μιχάλας\nΕ. Σκόνδρας" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="3"
+                            android:gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:text="Πνευματική Ιδιοκτησία, Προσωπικά Δεδομένα και Ρυθμιστικά Θέματα" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:layout_gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:text="Δ. Βέργαδος\nΕ. Βαγενά" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="55dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+
+                </TableLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/table5"
+                    android:id="@+id/table6"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="2o Εξάμηνο" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Τίτλος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:background="@drawable/left_side_border"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:text="Διδάσκων" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/left_side_border"
+                            android:layout_height="40dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="\t \t ECTS" />
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Διακυβέρνηση της Πληροφορίας και Συμμόρφωση / Επιχειρηματικότητα - Διοίκηση Έξυπνων Πόλεων" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:id="@+id/virvoy7"
+                            android:background="@drawable/left_side_border"
+                            android:text="Δ. Αποστόλου\nΔ. Βέργαδος\nΔ. Ψυχογιός" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Ασφάλεια Πληροφοριών Δημοσιών Υπηρεσιών και Συστημάτων και Τεχνολογίες Blockchain" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+
+                            android:background="@drawable/left_side_border"
+                            android:text="Κ. Πατσάκης\nΔ. Βέργαδος\nΘωμάς Δασακλής\nFran Casino" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="90dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Λογισμικό Διαδικτύου των Πραγμάτων (ΙοΤ) και Εφαρμογές" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+                            android:layout_weight="2"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+
+                            android:text="Μ. Βίρβου\nΔ. Βέργαδος\nΕ. Αλέπης\nΑ. Μιχάλας\nΕ. Σκόνδρας\nΒ. Στεφάνου" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="115dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:background="@drawable/border"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:text="Αστικός Σχεδιασμός Ψηφιακών Πόλεων" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+
+                            android:background="@drawable/left_side_border"
+                            android:text="Ι. Στεφάνου\nΚ. Σιούντρη\nΑ. Βασιλαρά\nΕ. Τσίγκας\nΣ. Γεωργίου" />
+                        <TextView
+                            android:background="@drawable/left_side_border"
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+
+                            android:textColor="#000000"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="6"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="3"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text="Πληθοπορισμός, Κοινωνική Δικτύωση και Σημασιολογικές Τεχνολογίες" />
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="I. Αναγνωστόπουλος\nΧ. Δουληγέρης" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="65dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:textColor="#000000"
+                            android:background="@drawable/left_side_border"
+                            android:text="\t \t \t 6" />
+                    </TableRow>
+                </TableLayout>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/table6"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/programma_didaskalias"
+                    android:text="Πρόγραμμα Διδασκαλίας">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/programma_didaskalias"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+
+                    android:id="@+id/programma1"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/programma1"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+
+                    android:id="@+id/programma2"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/programma2"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+
+                    android:id="@+id/programma3"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/programma3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+
+                    android:id="@+id/programma4"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/programma4"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+
+                    android:id="@+id/programma5"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/programma5"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+
+                    android:id="@+id/programma6"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/programma6"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/proswpiko"
+                    android:text="Προσωπικό">
+                </TextView>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/proswpiko"
+                    android:id="@+id/table9"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:id="@+id/anagnwstopoylos_xristos"
+                            android:textColor="#000000"
+                            android:text="Αναγνωστόπουλος Χρήστος-Νικόλαος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/virvoy"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Βίρβου Μαρία" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/anagnwstopoylos_iwannhs"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Αναγνωστόπουλος Ιωάννης" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/diala"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Διάλλα Άντα" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/filippakis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Φιλιππάκης Μιχαήλ" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/vergados_dimitris"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Δημήτριος Ι. Βέργαδος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/patsakis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Πατσάκης Κωνσταντίνος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/psyxogios"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Ψυχογιός Δημήτριος " />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/stefanoy_iwsif"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Στεφάνου Ιωσήφ" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/casino"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Fran Casino" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/androylidaki"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Ανδρουλιδάκη Αμαλία" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/vagena"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Βαγενά Ευαγγελία" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/vasilara"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Βασιλαρά Αρχοντούλα" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/grigorakis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Γρηγορακάκης Γρήγορης" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/dasaklis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Θωμάς Δασακλής" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/kakavas"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Κακαβάς Γεώργιος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/kakoylidoy"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Κακουλίδου Αλίκη" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/karamitsanis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Καραμητσάνης Βασίλειος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/kotswnis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Κοτσώνης Ιωάννης" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/linaki"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Λινάκη Ε." />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/magginis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Μαγγίνης Γεώργιος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/myridakis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Μυριδάκης Νικόλαος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/oikonomoy"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Οικονόμου Αγησίλαος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/pantelis"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Πάνος Παντελής" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/papapanagiwtoy"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Παπαπαναγιώτου Σταύρος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/tasoylas"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Τασούλας Ιωάννης" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/rappas"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Ράππας Παναγιώτης" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/rwmanoy"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Ρωμάνου Χριστίνα" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/sioyntri"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Σιούντρη Κωνσταντίνα" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/skondras1"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Σκόνδρας Εμμανουήλ" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/stefanoy_vasilia"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Στεφάνου Βασιλεία" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/syris"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Συρρής Νικόλαος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/xatzigrigorioy"
+                            android:textColor="#000000"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:text="Χατζηγρηγορίου Παύλος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/doyligeris"
+                            android:textColor="#000000"
+                            android:text="Δουληγέρης Χρήστος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/mixalas"
+                            android:textColor="#000000"
+                            android:text="Μιχάλας Άγγελος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/panagiwtopoylos"
+                            android:textColor="#000000"
+                            android:text="Παναγιωτόπουλος Θεμιστοκλής" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/tsikoyras"
+                            android:textColor="#000000"
+                            android:text="Τσικούρας Παναγιώτης-Γεώργιος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/tsixritzis"
+                            android:textColor="#000000"
+                            android:text="Τσιχριντζής Γεώργιος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/vergados"
+                            android:textColor="#000000"
+                            android:text="Βέργαδος Δημήτριος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/meta3iwths"
+                            android:textColor="#000000"
+                            android:text="Μεταξιώτης Κωνσταντίνος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/alepis"
+                            android:textColor="#000000"
+                            android:text="Αλέπης Ευθύμιος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/kwnstantopoylos"
+                            android:textColor="#000000"
+                            android:text="Κωνσταντόπουλος Χαράλαμπος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/pelekis"
+                            android:textColor="#000000"
+                            android:text="Πελέκης Νικόλαος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/pikrakis"
+                            android:textColor="#000000"
+                            android:text="Πικράκης Άγγελος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/karagiwrgoy"
+                            android:textColor="#000000"
+                            android:text="Καραγιώργου Σοφία " />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/katsiwnhs"
+                            android:textColor="#000000"
+                            android:text="Κατσιώνης Γεώργιος" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/liagkoyras"
+                            android:textColor="#000000"
+                            android:text="Λιαγκούρας Κωνσταντίνος " />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/papadomixelaki"
+                            android:textColor="#000000"
+                            android:text="Παπαδομιχελάκη Ξένη " />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/swthropoylos"
+                            android:textColor="#000000"
+                            android:text="Σωτηρόπουλος Διονύσιος" />
+                    </TableRow>
+
+
+                </TableLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/table9"
+                    android:id="@+id/table10"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Διοικητικό Προσωπικό" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/kanatoyla"
+                            android:textColor="#000000"
+                            android:text="Κανατούλα Αικατερίνη" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/kalogeraki"
+                            android:textColor="#000000"
+                            android:text="Καλογεράκη Ελένη - Μαρία" />
+                    </TableRow>
+
+
+                </TableLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/table10"
+                    android:id="@+id/table11"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bordercircle">
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom">
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:text="Τεχνικό Προσωπικό" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/skondras"
+                            android:textColor="#000000"
+                            android:text="Σκόνδρας Εμμανουήλ" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+
+                        android:layout_gravity="bottom"
+                       >
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="0dp"
+                            android:onClick="ShowPopup"
+                            android:clickable="true"
+                            android:layout_height="35dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/zoymi"
+                            android:textColor="#000000"
+                            android:text="Ζουμή Ειρήνη" />
+                    </TableRow>
+                </TableLayout>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/table11"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/text13"
+                    android:text="Προϋποθέσεις Εισαγωγής">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text13"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/text14"
+                    android:text="">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/text14"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/text15"
+                    android:text="Πρόσκληση Υποβολής Αιτήσεων">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text15"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/text16"
+                    android:text="Πατήστε εδώ για να κάνετε ηλεκτρονική υποβολή αίτησης">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text16"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/text17"
+                    android:text="Πρόσκληση υποβολής αιτήσεων για το ΠΜΣ «Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» , 2020-2021">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/text17"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/text18"
+                    android:text="Έντυπο αίτησης για το ΠΜΣ«Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» , 2020-2021">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+
+                    android:layout_below="@+id/text18"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/eggrafa"
+                    android:text="Έγγραφα">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/eggrafa"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/eggrafa1"
+                    android:text="Έντυπο αίτησης για το ΠΜΣ«Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» , 2020-2021">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/eggrafa1"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/eggrafa2"
+                    android:text="Έντυπο αίτησης για το ΠΜΣ«Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» , 2020-2021">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/eggrafa2"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/eggrafa3"
+                    android:text="Έντυπο αίτησης για το ΠΜΣ«Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» , 2020-2021">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0000EE"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/eggrafa3"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:id="@+id/eggrafa4"
+                    android:text="Έντυπο αίτησης για το ΠΜΣ«Προηγμένα Συστήματα Πληροφορικής - Ανάπτυξη Λογισμικού και Τεχνητής Νοημοσύνης» , 2020-2021">
+                </TextView>
+
+            </RelativeLayout>
+        </ScrollView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorSide"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_nav_bot"/>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        android:background="@color/colorSide"
+        android:layout_gravity="start"
+        app:itemTextColor="#f2f2f2"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        >
+        <ExpandableListView
+            android:groupIndicator="@android:color/transparent"
+            android:id="@+id/navigationmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="102dp"
+            android:background="@color/colorSide">
+        </ExpandableListView>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

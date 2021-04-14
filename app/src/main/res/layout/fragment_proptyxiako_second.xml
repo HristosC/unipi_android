@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".proptyxiako_second"
+    >
+    
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textViewSecond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:textColor="#000000"
+
+                    />
+
+            <TableLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/table1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bordercircle"
+                android:layout_below="@id/textViewSecond"
+                android:visibility="visible">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:text="1o ΕΤΟΣ"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:text="2o ΕΤΟΣ"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="1o &amp; 2ο \n Εξάμηνο"
+                    android:background="@drawable/border"
+                     />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:text="3o &amp; 4o \n Εξάμηνο"
+                     />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center_horizontal"
+                        android:text="\n 6 υποχρεωτικά μαθήματα"
+                        android:background="@drawable/border"
+                         />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:background="@drawable/border"
+                        android:text="\n 5 υποχρεωτικά μαθήματα \n+ 1 επιλογής"
+                        android:textColor="#000000"
+
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="Κοινά για όλους του φοιτητές του Τμήματος"
+
+
+                        />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/table2"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bordercircle"
+                android:layout_below="@id/table1"
+                android:visibility="visible">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:text="3o ΕΤΟΣ"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+
+
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="5o &amp; 6ο Εξάμηνο"
+                        android:background="@drawable/border"
+                         />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="ΤΛΕΣ"
+                        android:background="@drawable/border"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:text="ΔΥΣ"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:text="ΠΣΥ"></TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="2 μαθήματα κορμού"
+
+
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="3 υποχρεωτικά μαθήματα κατεύθυνσης"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="1 μάθημα επιλογής από κατάλογο ή από υποχρεωτικά άλλης κατεύθυνσης"
+                        />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/table3"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bordercircle"
+                android:layout_below="@id/table2"
+                android:visibility="visible">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:text="4o ΕΤΟΣ"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+
+
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="7o &amp; 8ο Εξάμηνο"
+                        android:background="@drawable/border"
+                        />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="ΤΛΕΣ"
+                        android:background="@drawable/border"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:text="ΔΥΣ"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:text="ΠΣΥ"></TextView>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="ΠΤΥΧΙΑΚΗ ΕΡΓΑΣΙΑ"
+
+
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="3 υποχρεωτικά μαθήματα κατεύθυνσης"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:textColor="#000000"
+                        android:gravity="center"
+                        android:text="2 μάθημα επιλογής από κατάλογο ή από υποχρεωτικά άλλης κατεύθυνσης"
+                            />
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textViewThird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:textColor="#000000"
+                android:layout_below="@id/table3"
+
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="-2dp"></include>
+
+        <ScrollView     android:layout_width="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways"
+                android:id="@+id/layout_metaptyxiako5">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/background_title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/text1"
+                    android:text="Συνοπτική Παρουσίαση">
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/text1"
+                    android:id="@+id/text2"
+                    android:gravity="center_vertical"
+                    android:text="Το Τμήμα Μηχανικών Πληροφορικής Τ.Ε. της Σχολής Τεχνολογικών Εφαρμογών του Τ.Ε.Ι. Δυτικής Μακεδονίας σε συνεργασία με το Τμήμα Πληροφορικής της Σχολής Τεχνολογιών Πληροφορικής και Επικοινωνιών του Πανεπιστημίου Πειραιώς οργανώνουν και λειτουργούν από το ακαδημαϊκό έτος 2018-2019 Διιδρυματικό Πρόγραμμα Μεταπτυχιακών Σπουδών (ΔΠΜΣ) με τίτλο «Προηγμένες Τεχνολογίες Πληροφορικής και Υπηρεσίες (Master of Science (MSc) in Modern Information Technologies and Services)» \n\n Το ΔΠΜΣ απονέμει Δίπλωμα Μεταπτυχιακών Σπουδών (Δ.Μ.Σ.) με τίτλο «Προηγμένες Τεχνολογίες Πληροφορικής και Υπηρεσίες (Master of Science (MSc) in Modern Information Technologies and Services) με τις εξής ειδικεύσεις: \n\n α) Σύγχρονα Συστήματα Τηλεπικοινωνιών, Τεχνολογίες Διαδικτύου, το Διαδίκτυο των Πραγμάτων και Ασφάλεια Συστημάτων\n\n β) Τεχνολογίες της Πληροφορικής και των Επικοινωνιών στην Εκπαίδευση\n\n Στο ΠΜΣ γίνονται δεκτοί κάτοχοι τίτλου πρώτου κύκλου σπουδών Α.Ε.Ι. της ημεδαπής ή ομοταγών ιδρυμάτων της αλλοδαπής σύμφωνα με τις διατάξεις του άρθρου 34 του ν.4485/2017 (ενδεικτικά: πτυχιούχοι Σχολών ή Τμημάτων Πληροφορικής, Μηχανικών Πληροφορικής Τ.Ε., Μηχανικών Τ.Ε., Πολυτεχνικών, Θετικών, Τεχνολογικών, Κοινωνικών, Οικονομικών, Νομικών ,Φιλοσοφικών, και Ανθρωπιστικών Επιστημών καθώς και των Επιστημών της Αγωγής).\n\nΤα γνωστικά αντικείμενα που αφορούν την ειδίκευση του ΠΜΣ «Σύγχρονα Συστήματα Τηλεπικοινωνιών, Τεχνολογίες Διαδικτύου, το Διαδίκτυο των Πραγμάτων και Ασφάλεια Συστημάτων» είναι οι επικοινωνίες, τα κατανεμημένα διάχυτα υπολογιστικά συστήματα και η ασφάλεια συστημάτων, τα οποία αποτελούν κλάδους της επιστήμης της Πληροφορικής με διαρκώς αυξανόμενη δυναμική.\n\n Η ειδίκευση του ΠΜΣ «Τεχνολογίες της Πληροφορικής και των Επικοινωνιών στην Εκπαίδευση» εστιάζει σε προχωρημένα θέματα χρήσης και διαχείρισης των Τεχνολογιών της Πληροφορικής και των Επικοινωνιών στην Εκπαίδευση. Η συγκεκριμένη ειδίκευση ενσωματώνει σύγχρονα γνωστικά πεδία μεταξύ των οποίων περιλαμβάνονται η μοντελοποίηση με 3Δ γραφικά, η εφαρμογή τεχνολογιών μεικτής πραγματικότητας (Virtual Reality, Augmented Reality, Virtual Worlds) καθώς και οι κινητές τεχνολογίες διαδικτύου και μέσων κοινωνικής δικτύωσης με τελικό σκοπό την αποτελεσματική σύνδεση των τεχνολογιών αυτών με τις ανάγκες της εκπαιδευτικής διαδικασίας. Παράλληλα εφοδιάζει τους φοιτητές με τις κατάλληλες γνώσεις και δεξιότητες οι οποίες κρίνονται απαραίτητες στο αναδυόμενο διεπιστημονικό πεδίο των τεχνολογιών της Πληροφορικής και των Επικοινωνιών στην Εκπαίδευση συμβάλλοντας στην χάραξη και την διαμόρφωση της νέας ψηφιακής στρατηγικής στην εκπαίδευση.\n\n Η χρονική διάρκεια του ΠΜΣ είναι τρία (3) ακαδημαϊκά εξάμηνα, ενώ για την απόκτηση του Διπλώματος Μεταπτυχιακών Σπουδών απαιτείται η επιτυχής εξέταση σε έξι (6) μαθήματα στο πρώτο εξάμηνο, η επιτυχής εξέταση σε έξι (6) μαθήματα στο δεύτερο εξάμηνο και η εκπόνηση και συγγραφή μεταπτυχιακής διπλωματικής εργασίας στο τρίτο εξάμηνο. Η αξιολόγηση των μαθημάτων πραγματοποιείται με την εκπόνηση εργασιών ή/ και εξετάσεων.\n\n Τα τέλη φοίτησης ανέρχονται σε 960€ ανά εξάμηνο σπουδών (2.880€ για το σύνολο του Προγράμματος). Με βάση την παρ.2 του άρθρου 35 του Ν.4485/2017 ποσοστό έως 30% των εισακτέων μπορεί να απαλλάσσεται από τα τέλη φοίτησης.\n\n Η έναρξη των μαθημάτων θα πραγματοποιηθεί εντός του Οκτωβρίου 2018. Tα μαθήματα θα πραγματοποιούνται στις εγκαταστάσεις του ΤΕΙ Δυτικής Μακεδονίας στην Καστοριά, Παρασκευή 16:00-22:00 και Σάββατο 08:30-18:00."></TextView>
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorSide"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_nav_bot"/>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        android:background="@color/colorSide"
+        android:layout_gravity="start"
+        app:itemTextColor="#f2f2f2"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        >
+        <ExpandableListView
+            android:groupIndicator="@android:color/transparent"
+            android:id="@+id/navigationmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="102dp"
+            android:background="@color/colorSide">
+        </ExpandableListView>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

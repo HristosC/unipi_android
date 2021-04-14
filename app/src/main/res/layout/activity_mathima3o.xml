@@ -1,0 +1,3768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:openDrawer="start"
+
+    android:background="@color/colorPrimary"
+    tools:context=".mathimata_examinou">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            tools:layout_editor_absoluteX="-26dp"
+            tools:layout_editor_absoluteY="-2dp"></include>
+        <ScrollView     android:layout_width="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/layout_ex3"
+                android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways">
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/mathimatikos_programmatismos">
+                    <TextView
+
+                        android:layout_width="280dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+
+
+                        android:textStyle="bold"
+
+
+                        android:textColor="#FFFFFF"
+                        android:text="Μαθηματικός Προγραμματισμός"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/mathimatikos_programmatismos"
+
+                    android:id="@+id/table1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+
+                        >
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+
+                            android:text="\n Ο Γραμμικός Προγραμματισμός είναι ένα στέρεο θεωρητικό οικοδόμημα που αποτελεί το πλέον διαδεδομένο μαθηματικό μοντέλο της Επιχειρησιακής Έρευνας. Στο πλαίσιο του μαθήματος παρουσιάζεται το γενικό πρόβλημα του γραμμικού προγραμματισμού και η μαθηματική του διατύπωση, η γραφική μέθοδος επίλυσης, ο αλγόριθμος Simplex, η αρχή της δυϊκότητας, η ανάλυση ευαισθησίας. Παρουσιάζονται επίσης ειδικές μορφές και προβλήματα γραμμικού προγραμματισμού και η μέθοδοι επίλυσης τους, όπως ο ακέραιος γραμμικός προγραμματισμός, το πρόβλημα μεταφοράς, το πρόβλημα ανάθεσης και άλλα προβλήματα δικτύων, όπως τα προβλήματα μέγιστης ροής και συντομότερης διαδρομής. \n" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Υποχρεωτικό" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία + 2 Φροντιστήριο" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+
+
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/despotis"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Δεσπότης Δημήτριος" />
+                        />
+                    </TableRow>
+                </TableLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table1"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/antikeimenostrafhs">
+                    <TextView
+
+                        android:layout_width="310dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Αντικειμενοστραφής Ανάπτυξη Εφαρμογών"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/antikeimenostrafhs"
+
+                    android:id="@+id/table2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:text=""
+                        ></TextView>
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:textColor="#000000"
+                            android:text="">
+
+                        </TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Υποχρεωτικό" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία + 2 Εργαστήριο" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+
+
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/despotis1"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Δεσπότης Δημήτριος" />
+
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/alephs"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Αλέπης Ευθύμιος" />
+
+                    </TableRow>
+                </TableLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table2"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/leitoyrgika">
+                    <TextView
+
+                        android:layout_width="280dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Λειτουργικά Συστήματα"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/leitoyrgika"
+
+                    android:id="@+id/table3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="\nΒασικές έννοιες και αρχές Λειτουργικών Συστημάτων. Αρχιτεκτονική, δομή και κατηγοριοποίηση Λειτουργικών Συστημάτων. Διεργασίες, Νήματα. Δια-διεργασιακή επικοινωνία. Χρονοδρομολόγηση της CPU. Σύστημα μνήμης. Διαχείριση μνήμης. Εικονική Μνήμη. Σελιδοποίηση. Αλγόριθμοι διαχείρισης μνήμης. Διαχείριση Αρχείων και καταλόγων. Συστήματα Αρχείων. Είσοδος/Έξοδος. Αδιέξοδα. \n"
+                            />
+
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="12dp"
+                            android:textColor="#000000"
+                            android:text="\n Κατανόηση των βασικών εννοιών των λειτουργικών συστημάτων. \n Εκμάθηση βασικών τεχνικών και εντολών διαχείρισης λειτουργικών συστημάτων. \n Εισαγωγή στον προγραμματισμό συστημάτων. \n"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Υποχρεωτικό" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία + 2 Εργαστήριο" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+
+
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/kotzanikolaoy"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Κοτζανικολάου Παναγιώτης" />
+
+                    </TableRow>
+                </TableLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table3"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/metaglwtistes">
+                    <TextView
+
+                        android:layout_width="280dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Μεταγλωττιστές"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/metaglwtistes"
+
+                    android:id="@+id/table4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="11dp"
+                            android:textColor="#000000"
+                            android:text=""
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Υποχρεωτικό" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία + 2 Εργαστήριο" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+
+
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/pikrakhs"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Πικράκης Άγγελος" />
+
+                    </TableRow>
+                </TableLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table4"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/pithanothtes">
+                    <TextView
+
+                        android:layout_width="300dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Πιθανότητες και Στατιστική"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/pithanothtes"
+
+                    android:id="@+id/table5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="11dp"
+                            android:textColor="#000000"
+                            android:text=""
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Υποχρεωτικό" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία + 1 Φροντιστήριο" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+
+
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/tasoylas"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Τασούλας Ιωάννης" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table5"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/efarmoges_thewrias">
+                    <TextView
+
+                        android:layout_width="300dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Εφαρμογές Θεωρίας Γραφημάτων"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/efarmoges_thewrias"
+
+                    android:id="@+id/table6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος"  />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#000000"
+                            android:id="@+id/perigrafi_efarmoges_thewrias"
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="12dp"
+                            android:textColor="#000000"
+                            android:text="\n Μετά την επιτυχή παρακολούθηση αυτού του μαθήματος, οι φοιτητές αναμένεται να έχουν αποκτήσει τις γνώσεις των βασικών εννοιών καθώς και κάποιων εφαρμογών της Θεωρίας Γραφημάτων, ώστε να μπορέσουν να τα χρησιμοποιήσουν σε άλλα μαθήματα και εφαρμογές της Πληροφορικής (Αλγόριθμοι, Δομές Δεδομένων, Σχεδιασμός Δικτύων, κλπ.). \n"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Επιλογής" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/tsikoyras"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Τσικούρας Παναγιώτης-Γεώργιος" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table6"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/management">
+                    <TextView
+
+                        android:layout_width="300dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Μάνατζμεντ"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/management"
+
+                    android:id="@+id/table7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος"  />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="12dp"
+                            android:textColor="#000000"
+                            android:text=""
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Επιλογής" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Φ. Νταλιάνης" />
+
+                    </TableRow>
+                </TableLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table7"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/ergonomia">
+                    <TextView
+
+                        android:layout_width="300dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Εργονομία"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/ergonomia"
+
+                    android:id="@+id/table8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος"  />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="12dp"
+                            android:textColor="#000000"
+                            android:text=""
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Επιλογής" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+                            android:onClick="ShowPopup"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Λ. Λάιος" />
+
+                    </TableRow>
+                </TableLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table8"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/dioikhsh_systhmatwn_efodiasmoy">
+                    <TextView
+
+                        android:layout_width="300dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Διοίκηση Συστημάτων Εφοδιασμού"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/dioikhsh_systhmatwn_efodiasmoy"
+
+                    android:id="@+id/table9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος"  />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="12dp"
+                            android:textColor="#000000"
+                            android:text=""
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Επιλογής" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:clickable="true"
+
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Σ. Μοσχούρης" />
+
+                    </TableRow>
+                </TableLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table9"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/dikaio_pliroforikis">
+                    <TextView
+
+                        android:layout_width="300dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Δίκαιο της Πληροφορικής"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/dikaio_pliroforikis"
+
+                    android:id="@+id/table10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος"  />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="12dp"
+                            android:textColor="#000000"
+                            android:text=""
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Επιλογής" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="5" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Α. Σινανιώτη" />
+
+                    </TableRow>
+                </TableLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table10"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/agglika3">
+                    <TextView
+
+                        android:layout_width="300dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Αγγλικά 3"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/agglika3"
+
+                    android:id="@+id/table11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="11dp"
+                            android:textColor="#000000"
+                            android:text=""
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Ξένη Γλώσσα" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/tompoy"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+
+                            android:textSize="11dp"
+                            android:text="Χ. Τόμπρου" />
+
+                    </TableRow>
+                </TableLayout>
+                <RelativeLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/table11"
+                    android:background="@drawable/custom_text"
+                    android:id="@+id/gallika3">
+                    <TextView
+
+                        android:layout_width="300dp"
+                        android:layout_height="25dp"
+                        android:gravity="left"
+                        android:layout_marginLeft="20dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:text="Γαλλικά 3"
+
+                        ></TextView>
+                </RelativeLayout>
+
+                <TableLayout
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bordercircle"
+                    android:layout_below="@id/gallika3"
+
+                    android:id="@+id/table12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Περιγραφή Μαθήματος" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/border"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="12dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="\nΤαχύρυθμη μέθοδος απευθυνόμενη σε ενήλικες εξασφαλίζει τις βασικές γνώσεις, λεξιλόγιο-γραμματική-συντακτικό της Γαλλικής Γλώσσας.\n" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Μαθησιακά Αποτελέσματα" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/border"
+                            android:layout_height="20dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textSize="11dp"
+                            android:textColor="#000000"
+                            android:text=""
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="@drawable/bordertitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Κωδικός Μαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Τύπος \nΜαθήματος" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nΚατεύθυνση" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Ώρες Διδασκαλίας" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="\nECTS" />
+                    </TableRow>
+                    <TableRow
+                        android:background="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="5"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:textSize="11dp"
+                            android:text="Ξένη Γλώσσα" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:textSize="11dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="-" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="4 Θεωρία" />
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:textSize="11dp"
+                            android:gravity="center"
+
+                            android:textColor="#000000"
+
+                            android:text="" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:background="@drawable/bordertitle"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+
+                            android:text="Διδάσκοντες" />
+                    </TableRow>
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:layout_gravity="bottom"
+                        >
+
+                        <TextView
+                            android:layout_gravity="bottom"
+                            android:layout_width="0dp"
+                            android:id="@+id/voygioyklidoy"
+                            android:onClick="ShowPopup"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="#000000"
+                            android:clickable="true"
+                            android:textSize="11dp"
+                            android:text="Βουγιουκλίδου Άννα" />
+
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+        </ScrollView>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:labelVisibilityMode="labeled"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorSide"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_nav_bot"/>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        android:background="@color/colorSide"
+        android:layout_gravity="start"
+        app:itemTextColor="#f2f2f2"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        >
+        <ExpandableListView
+            android:groupIndicator="@android:color/transparent"
+            android:id="@+id/navigationmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="102dp"
+            android:background="@color/colorSide">
+        </ExpandableListView>
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

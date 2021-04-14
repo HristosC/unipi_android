@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".proptyxiako_third"
+    android:background="@drawable/border"
+    android:id="@+id/panw">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        >
+        <TableLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/table1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:background="@drawable/bordercircle">
+
+            <TableRow
+                android:id="@+id/eksamino1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1"
+
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+
+                    android:text="Μαθήματα 1ου εξαμήνου" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/eksamino2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+
+                    android:text="Μαθήματα 2ου εξαμήνου" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/eksamino3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+
+                    android:text="Μαθήματα 3ου εξαμήνου" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/eksamino4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+
+                    android:text="Μαθήματα 4ου εξαμήνου" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/eksamino5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+
+                    android:text="Μαθήματα 5ου εξαμήνου" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/eksamino6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+
+                    android:text="Μαθήματα 6ου εξαμήνου" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/eksamino7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:gravity="center"
+
+                    android:text="Μαθήματα 7ου εξαμήνου" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/eksamino8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Μαθήματα 8ου εξαμήνου" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</RelativeLayout>

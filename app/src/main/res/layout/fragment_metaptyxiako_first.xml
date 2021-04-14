@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".metaptyxiako_first">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/background_title"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/text1"
+            android:text="Γενικές Πληροφορίες">
+        </TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text1"
+            android:id="@+id/text2"
+            android:gravity="center_vertical"
+            android:text="">
+        </TextView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text2"
+            android:id="@+id/text3"
+            android:gravity="center_vertical"
+            android:text=""
+            >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text3"
+            android:id="@+id/text4"
+            android:gravity="center"
+            android:clickable="true"
+            android:text="Ακαδημαϊκό γίγνεσθαι"
+            >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text4"
+            android:id="@+id/text5"
+            android:gravity="center"
+            android:text="Εάν θέλετε να μάθετε για την συμμετοχή των ΠΜΣ Πληροφορικής στο Διεθνές Ακαδημαϊκό Γίγνεσθαι πατήστε το από πάνω μπλε πλαίσιο. "
+            >
+
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text5"
+            android:id="@+id/text6"
+            android:gravity="center"
+            android:text="Αξιολόγηση Μεταπτυχιακών " >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text6"
+            android:id="@+id/text7"
+            android:gravity="center_vertical"
+            android:text="Αξιολόγηση Μεταπτυχιακών " >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#09b680"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text7"
+            android:id="@+id/text8"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:text="Dr. Demetri Terzopoulos (Chair), University of California, Los Angeles, USA" >
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#09b680"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text8"
+            android:id="@+id/text9"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:text="Dr. Dimitrios Karampatzakis, Expert, Greece " >
+        </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#09b680"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text9"
+            android:id="@+id/text10"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:text="Dr. Nikos Paragios, Ecole Centrale de Paris, France" >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#09b680"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text10"
+            android:id="@+id/text11"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:text="Dr. Costas Xydeas, University of Lancaster, UK" >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text11"
+            android:id="@+id/text12"
+            android:gravity="center"
+            android:text="Παροχές Προς Τους Φοιτητές" >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text12"
+            android:id="@+id/text13"
+            android:gravity="center_vertical"
+            android:text=""
+            >
+
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text13"
+            android:id="@+id/text14"
+            android:gravity="center"
+            android:text="Υποδομή Έρευνας" >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text14"
+            android:id="@+id/text15"
+            android:gravity="center_vertical"
+            android:text="" >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text15"
+            android:id="@+id/text16"
+            android:gravity="center"
+            android:text="Αγορά Εργασίας" >
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/text16"
+            android:id="@+id/text17"
+            android:gravity="center_vertical"
+            android:text="" >
+        </TextView>
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>

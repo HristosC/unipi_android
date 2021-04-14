@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.texnologia_logismikou_2020">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mathimata_examinou"></activity>
+        <activity android:name=".menu_redirection" />
+        <activity android:name=".anakoinwseis_details" />
+        <activity android:name=".anakoinwseis" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".driakriseis_details" />
+        <activity android:name=".diakriseis" />
+        <activity android:name=".stoixeia_epikoinwnias" />
+        <activity android:name=".ipiresies_tmimatos_panepistimiou" />
+        <activity android:name=".ipiresies_tmimatos_panepistimiou_details" />
+        <activity android:name=".alles_drasthriotites" />
+        <activity android:name=".alles_drasthriotites_details" />
+        <activity android:name=".omilies_dialexeis" />
+        <activity android:name=".omilies_dialexeis_details" />
+        <activity android:name=".sundedrio_details" />
+        <activity android:name=".episitmonika_sunedria" />
+        <activity android:name=".hmerides" />
+        <activity android:name=".Sunergazomenes_etairies" />
+        <activity android:name=".Sunergazomenes_etairies_details" />
+        <activity android:name=".didaskontes" />
+        <activity android:name=".didaskontes_details" />
+        <activity android:name=".epitimoi_metadidaktorikoi" />
+        <activity android:name=".epitimoi_didaktores" />
+        <activity android:name=".proptyxiaka" />
+        <activity android:name=".didaktorikes_spoydes" />
+        <activity android:name=".metaptyxiako" />
+        <activity android:name=".metaptyxiaka" />
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name=".maps_location"
+            android:label="@string/title_activity_maps_location" />
+        <activity android:name=".ereunitika_ergastiria" />
+        <activity android:name=".ereunitika_erga" />
+        <activity android:name=".epilegmenes_dimosieuseis" />
+        <activity android:name=".tomeis_ereunas" />
+        <activity android:name=".Message_proedrou" />
+        <activity android:name=".history_page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
